@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin panel</title>
+	<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="style/adm-style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/foundation.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div class="adm-wrapp">
+		<header>
+			<h1 class="text-center">Admin panel</h1>
+		</header>
+		<section>
+			<ul class="tabs text-center" data-tabs id="admin-tabs">
+				<li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Загрузка файлов</a></li>
+				<li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">Настройка почты</a></li>
+				<li class="tabs-title"><a data-tabs-target="panel3" href="#panel2">Настройка сайта</a></li>
+			</ul>
+
+			<div class="tabs-content" data-tabs-content="admin-tabs">
+				<div class="tabs-panel is-active" id="panel1">
+					<form>
+						<p>Каталог</p>
+						<input type="file">
+						<button class="button">Загрузить</button>
+					</form>
+					<hr>
+					<p class="title">Популярные товары</p>
+					<form>
+						<p>Товар №1</p>
+						<input type="text" placeholder="Название товара">
+						<input type="file">
+						<button class="button">Загрузить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Товар №2</p>
+						<input type="text" placeholder="Название товара">
+						<input type="file">
+						<button class="button">Загрузить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Товар №3</p>
+						<input type="text" placeholder="Название товара">
+						<input type="file">
+						<button class="button">Загрузить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Товар №4</p>
+						<input type="text" placeholder="Название товара">
+						<input type="file">
+						<button class="button">Загрузить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Товар №5</p>
+						<input type="text" placeholder="Название товара">
+						<input type="file">
+						<button class="button">Загрузить</button>
+					</form>
+				</div>
+				<div class="tabs-panel" id="panel2">
+					<form>
+						<input type="text" placeholder="E-mail">
+						<input type="password" placeholder="Пароль">
+						<button class="button">Сохранить</button>
+					</form>
+				</div>
+				<div class="tabs-panel" id="panel3">
+					<form>
+						<p>Контакты (шапка)</p>
+						<textarea placeholder="Введие текст"></textarea>
+						<button class="button">Cохранить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Заголовок №1</p>
+						<textarea placeholder="Введие текст"></textarea>
+						<button class="button">Cохранить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Заголовок №2</p>
+						<textarea placeholder="Введие текст"></textarea>
+						<button class="button">Cохранить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Заголовок №3</p>
+						<textarea placeholder="Введие текст"></textarea>
+						<button class="button">Cохранить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Преимущество №1</p>
+						<textarea placeholder="Введие текст"></textarea>
+						<button class="button">Cохранить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Преимущество №2</p>
+						<textarea placeholder="Введие текст"></textarea>
+						<button class="button">Cохранить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Преимущество №3</p>
+						<input type="text">
+						<button class="button">Cохранить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Преимущество №4</p>
+						<textarea placeholder="Введие текст"></textarea>
+						<button class="button">Cохранить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Преимущество №5</p>
+						<textarea placeholder="Введие текст"></textarea>
+						<button class="button">Cохранить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Преимущество №6</p>
+						<textarea placeholder="Введие текст"></textarea>
+						<button class="button">Cохранить</button>
+					</form>
+					<hr>
+					<form>
+						<p>Контакты (подвал)</p>
+						<textarea placeholder="Введие текст"></textarea>
+						<button class="button">Cохранить</button>
+					</form>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

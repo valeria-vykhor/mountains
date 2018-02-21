@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500');
+
+* {
+	margin: 0; 
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #0a0a0a;
+}
+
+.adm-wrapp header {
+	background: linear-gradient(to right, #11998e, #007991);
+	box-shadow: 2px 2px 3px black;
+	padding: 10px 0;
+	opacity: 0.9;
+}
+
+.adm-wrapp h1 {
+	color: #fff;
+	font-size: 30px;
+}
+
+.tabs-title {
+	float: none;
+	border: 2px solid transparent;
+}
+
+.tabs-title a {
+	font-size: 16px;
+	outline-color: transparent !important;
+	color: grey;
+	font-weight: 500;
+}
+
+.tabs-title a:hover, .tabs-title a:focus, .tabs-title a:active, .tabs-title a:visited, .tabs-title>a[aria-selected=true] {
+	color: grey;
+	background: transparent;
+}
+
+.tabs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0;
+}
+
+.tabs-content {
+	border: none;
+}
+
+li.is-active {
+	border: 2px solid #11998e;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px #11998e;
+}
+
+.adm-wrapp button, .adm-wrapp input {
+	width: 300px !important;
+}
+
+.adm-wrapp textarea {
+	width: 400px !important;
+}
+
+.adm-wrapp .button {
+	background-color: #11998e;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+
+.adm-wrapp .button:hover, .adm-wrapp .button:focus, .adm-wrapp .button:active, .adm-wrapp .button:visited {
+	background-color: #11998e;
+	opacity: 0.8;
+}
+
+.adm-wrapp form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.adm-wrapp form p, .title {
+	font-weight: 500;
+	font-size: 16px;
+	color: grey;
+	text-align: center;
+}
