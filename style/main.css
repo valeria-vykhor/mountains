@@ -67,7 +67,7 @@ header .flex-container div {
 	width: 100%;
 	height: 100%;
 	font-weight: 500;
-	background: linear-gradient(to bottom,  rgba(255, 255, 255, 0), #303030 100%);
+	background: linear-gradient(to bottom,  rgba(255, 255, 255, 0), #1A1A1A 100%);
 }
 
 .open-btn, .sub-btn {
